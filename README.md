@@ -1,25 +1,27 @@
 go-pinyin
 =========
 
-[![Build Status](https://travis-ci.org/mozillazg/go-pinyin.svg?branch=master)](https://travis-ci.org/mozillazg/go-pinyin)
+[![Build Status](https://travis-ci.org/huacnlee/go-pinyin.svg?branch=master)](https://travis-ci.org/mozillazg/go-pinyin)
 [![Coverage Status](https://coveralls.io/repos/mozillazg/go-pinyin/badge.svg?branch=master)](https://coveralls.io/r/mozillazg/go-pinyin?branch=master)
-[![Go Report Card](https://goreportcard.com/badge/github.com/mozillazg/go-pinyin)](https://goreportcard.com/report/github.com/mozillazg/go-pinyin)
-[![GoDoc](https://godoc.org/github.com/mozillazg/go-pinyin?status.svg)](https://godoc.org/github.com/mozillazg/go-pinyin)
+[![Go Report Card](https://goreportcard.com/badge/github.com/huacnlee/go-pinyin)](https://goreportcard.com/report/github.com/huacnlee/go-pinyin)
+[![GoDoc](https://godoc.org/github.com/huacnlee/go-pinyin?status.svg)](https://godoc.org/github.com/huacnlee/go-pinyin)
 
 汉语拼音转换工具 Go 版。
+
+这是一个 [go-pinyin](https://github.com/mozillazg/go-pinyin) fork 版本，用来支持段落、短语、多一字准确转换的支持。
 
 
 Installation
 ------------
 
 ```
-go get -u github.com/mozillazg/go-pinyin
+go get -u github.com/huacnlee/go-pinyin
 ```
 
 install CLI tool:
 
 ```
-go get -u github.com/mozillazg/go-pinyin/cmd/pinyin
+go get -u github.com/huacnlee/go-pinyin/cmd/pinyin
 $ pinyin 中国人
 zhōng guó rén
 ```
@@ -29,7 +31,7 @@ Documentation
 --------------
 
 API documentation can be found here:
-https://godoc.org/github.com/mozillazg/go-pinyin
+https://godoc.org/github.com/huacnlee/go-pinyin
 
 
 Usage
@@ -40,7 +42,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/mozillazg/go-pinyin"
+	"github.com/huacnlee/go-pinyin"
 )
 
 func main() {
