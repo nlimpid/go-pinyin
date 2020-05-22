@@ -4,7 +4,7 @@ go-pinyin
 [![Build Status](https://travis-ci.org/huacnlee/go-pinyin.svg?branch=master)](https://travis-ci.org/mozillazg/go-pinyin)
 [![Coverage Status](https://coveralls.io/repos/mozillazg/go-pinyin/badge.svg?branch=master)](https://coveralls.io/r/mozillazg/go-pinyin?branch=master)
 [![Go Report Card](https://goreportcard.com/badge/github.com/huacnlee/go-pinyin)](https://goreportcard.com/report/github.com/huacnlee/go-pinyin)
-[![GoDoc](https://godoc.org/github.com/huacnlee/go-pinyin?status.svg)](https://godoc.org/github.com/huacnlee/go-pinyin)
+[![GoDoc](https://godoc.org/github.com/huacnlee/go-pinyin?status.svg)](https://pkg.go.dev/github.com/huacnlee/go-pinyin)
 
 汉语拼音转换工具 Go 版。
 
@@ -31,7 +31,7 @@ Documentation
 --------------
 
 API documentation can be found here:
-https://godoc.org/github.com/huacnlee/go-pinyin
+https://pkg.go.dev/github.com/huacnlee/go-pinyin
 
 
 Usage
