@@ -2,6 +2,7 @@
 
 ## [0.18.0] (2020-mm-dd)
 * **Changed** 使用 [pinyin-data][pinyin-data] v0.9.0 的拼音数据
+* **Bugfixed** 修复自定义的 Fallback 函数可能会导致结果乱码的问题 Fixes [#35]
 
 ## [0.17.0] (2020-04-09)
 
@@ -192,24 +193,28 @@
 [pinyin-data]: https://github.com/mozillazg/pinyin-data
 [@wdscxsj]: https://github.com/wdscxsj
 [@huacnlee]: https://github.com/huacnlee
-[#19]: https://github.com/longbridgeapp/go-pinyin/pull/19
-[#20]: https://github.com/longbridgeapp/go-pinyin/pull/20
-[#30]: https://github.com/longbridgeapp/go-pinyin/pull/30
-[#37]: https://github.com/longbridgeapp/go-pinyin/pull/37
-[0.1.1]: https://github.com/longbridgeapp/go-pinyin/compare/v0.1.0...v0.1.1
-[0.2.0]: https://github.com/longbridgeapp/go-pinyin/compare/v0.1.1...v0.2.0
-[0.2.1]: https://github.com/longbridgeapp/go-pinyin/compare/v0.2.0...v0.2.1
-[0.3.0]: https://github.com/longbridgeapp/go-pinyin/compare/v0.2.1...v0.3.0
-[0.4.0]: https://github.com/longbridgeapp/go-pinyin/compare/v0.3.0...v0.4.0
-[0.5.0]: https://github.com/longbridgeapp/go-pinyin/compare/v0.4.0...v0.5.0
-[0.6.0]: https://github.com/longbridgeapp/go-pinyin/compare/v0.5.0...v0.6.0
-[0.7.0]: https://github.com/longbridgeapp/go-pinyin/compare/v0.6.0...v0.7.0
-[0.8.0]: https://github.com/longbridgeapp/go-pinyin/compare/v0.7.0...v0.8.0
-[0.9.0]: https://github.com/longbridgeapp/go-pinyin/compare/v0.8.0...v0.9.0
-[0.10.0]: https://github.com/longbridgeapp/go-pinyin/compare/v0.9.0...v0.10.0
-[0.11.0]: https://github.com/longbridgeapp/go-pinyin/compare/v0.10.0...v0.11.0
-[0.12.0]: https://github.com/longbridgeapp/go-pinyin/compare/v0.11.0...v0.12.0
-[0.13.0]: https://github.com/longbridgeapp/go-pinyin/compare/v0.12.0...v0.13.0
-[0.14.0]: https://github.com/longbridgeapp/go-pinyin/compare/v0.13.0...v0.14.0
-[0.15.0]: https://github.com/longbridgeapp/go-pinyin/compare/v0.14.0...v0.15.0
-[0.16.0]: https://github.com/longbridgeapp/go-pinyin/compare/v0.15.0...v0.16.0
+[#19]: https://github.com/mozillazg/go-pinyin/pull/19
+[#20]: https://github.com/mozillazg/go-pinyin/pull/20
+[#30]: https://github.com/mozillazg/go-pinyin/pull/30
+[#37]: https://github.com/mozillazg/go-pinyin/pull/37
+[#35]: https://github.com/mozillazg/go-pinyin/issues/35
+
+[0.1.1]: https://github.com/mozillazg/go-pinyin/compare/v0.1.0...v0.1.1
+[0.2.0]: https://github.com/mozillazg/go-pinyin/compare/v0.1.1...v0.2.0
+[0.2.1]: https://github.com/mozillazg/go-pinyin/compare/v0.2.0...v0.2.1
+[0.3.0]: https://github.com/mozillazg/go-pinyin/compare/v0.2.1...v0.3.0
+[0.4.0]: https://github.com/mozillazg/go-pinyin/compare/v0.3.0...v0.4.0
+[0.5.0]: https://github.com/mozillazg/go-pinyin/compare/v0.4.0...v0.5.0
+[0.6.0]: https://github.com/mozillazg/go-pinyin/compare/v0.5.0...v0.6.0
+[0.7.0]: https://github.com/mozillazg/go-pinyin/compare/v0.6.0...v0.7.0
+[0.8.0]: https://github.com/mozillazg/go-pinyin/compare/v0.7.0...v0.8.0
+[0.9.0]: https://github.com/mozillazg/go-pinyin/compare/v0.8.0...v0.9.0
+[0.10.0]: https://github.com/mozillazg/go-pinyin/compare/v0.9.0...v0.10.0
+[0.11.0]: https://github.com/mozillazg/go-pinyin/compare/v0.10.0...v0.11.0
+[0.12.0]: https://github.com/mozillazg/go-pinyin/compare/v0.11.0...v0.12.0
+[0.13.0]: https://github.com/mozillazg/go-pinyin/compare/v0.12.0...v0.13.0
+[0.14.0]: https://github.com/mozillazg/go-pinyin/compare/v0.13.0...v0.14.0
+[0.15.0]: https://github.com/mozillazg/go-pinyin/compare/v0.14.0...v0.15.0
+[0.16.0]: https://github.com/mozillazg/go-pinyin/compare/v0.15.0...v0.16.0
+[0.17.0]: https://github.com/mozillazg/go-pinyin/compare/v0.16.0...v0.17.0
+
