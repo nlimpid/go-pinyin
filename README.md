@@ -1,10 +1,5 @@
 # go-pinyin
 
-[![Build Status](https://travis-ci.org/longbridgeapp/go-pinyin.svg?branch=master)](https://travis-ci.org/mozillazg/go-pinyin)
-[![Coverage Status](https://coveralls.io/repos/mozillazg/go-pinyin/badge.svg?branch=master)](https://coveralls.io/r/mozillazg/go-pinyin?branch=master)
-[![Go Report Card](https://goreportcard.com/badge/github.com/longbridgeapp/go-pinyin)](https://goreportcard.com/report/github.com/longbridgeapp/go-pinyin)
-[![GoDoc](https://godoc.org/github.com/longbridgeapp/go-pinyin?status.svg)](https://pkg.go.dev/github.com/longbridgeapp/go-pinyin)
-
 汉语拼音转换工具 Go 版。
 
 这是一个 [go-pinyin](https://github.com/mozillazg/go-pinyin) fork 版本，用来支持段落、短语、多一字准确转换的支持。
