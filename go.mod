@@ -1,4 +1,4 @@
-module github.com/huacnlee/go-pinyin
+module github.com/longbridgeapp/go-pinyin
 
 require (
 	github.com/mattn/go-isatty v0.0.10

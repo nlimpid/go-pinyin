@@ -1,48 +1,41 @@
-go-pinyin
-=========
+# go-pinyin
 
-[![Build Status](https://travis-ci.org/huacnlee/go-pinyin.svg?branch=master)](https://travis-ci.org/mozillazg/go-pinyin)
+[![Build Status](https://travis-ci.org/longbridgeapp/go-pinyin.svg?branch=master)](https://travis-ci.org/mozillazg/go-pinyin)
 [![Coverage Status](https://coveralls.io/repos/mozillazg/go-pinyin/badge.svg?branch=master)](https://coveralls.io/r/mozillazg/go-pinyin?branch=master)
-[![Go Report Card](https://goreportcard.com/badge/github.com/huacnlee/go-pinyin)](https://goreportcard.com/report/github.com/huacnlee/go-pinyin)
-[![GoDoc](https://godoc.org/github.com/huacnlee/go-pinyin?status.svg)](https://pkg.go.dev/github.com/huacnlee/go-pinyin)
+[![Go Report Card](https://goreportcard.com/badge/github.com/longbridgeapp/go-pinyin)](https://goreportcard.com/report/github.com/longbridgeapp/go-pinyin)
+[![GoDoc](https://godoc.org/github.com/longbridgeapp/go-pinyin?status.svg)](https://pkg.go.dev/github.com/longbridgeapp/go-pinyin)
 
 汉语拼音转换工具 Go 版。
 
 这是一个 [go-pinyin](https://github.com/mozillazg/go-pinyin) fork 版本，用来支持段落、短语、多一字准确转换的支持。
 
-
-Installation
-------------
+## Installation
 
 ```
-go get -u github.com/huacnlee/go-pinyin
+go get -u github.com/longbridgeapp/go-pinyin
 ```
 
 install CLI tool:
 
 ```
-go get -u github.com/huacnlee/go-pinyin/cmd/pinyin
+go get -u github.com/longbridgeapp/go-pinyin/cmd/pinyin
 $ pinyin 中国人
 zhōng guó rén
 ```
 
-
-Documentation
---------------
+## Documentation
 
 API documentation can be found here:
-https://pkg.go.dev/github.com/huacnlee/go-pinyin
+https://pkg.go.dev/github.com/longbridgeapp/go-pinyin
 
-
-Usage
-------
+## Usage
 
 ```go
 package main
 
 import (
 	"fmt"
-	"github.com/huacnlee/go-pinyin"
+	"github.com/longbridgeapp/go-pinyin"
 )
 
 func main() {
@@ -87,22 +80,16 @@ func main() {
 }
 ```
 
+## Related Projects
 
-Related Projects
------------------
+- [hotoo/pinyin](https://github.com/hotoo/pinyin): 汉语拼音转换工具 Node.js/JavaScript 版。
+- [mozillazg/python-pinyin](https://github.com/mozillazg/python-pinyin): 汉语拼音转换工具 Python 版。
+- [mozillazg/rust-pinyin](https://github.com/mozillazg/rust-pinyin): 汉语拼音转换工具 Rust 版。
 
-* [hotoo/pinyin](https://github.com/hotoo/pinyin): 汉语拼音转换工具 Node.js/JavaScript 版。
-* [mozillazg/python-pinyin](https://github.com/mozillazg/python-pinyin): 汉语拼音转换工具 Python 版。
-* [mozillazg/rust-pinyin](https://github.com/mozillazg/rust-pinyin): 汉语拼音转换工具 Rust 版。
+## pinyin data
 
+- 使用 [pinyin-data](https://github.com/mozillazg/pinyin-data) 的拼音数据
 
-pinyin data
------------------
-
-* 使用 [pinyin-data](https://github.com/mozillazg/pinyin-data) 的拼音数据
-
-
-License
----------
+## License
 
 Under the MIT License.
