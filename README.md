@@ -1,5 +1,7 @@
 # go-pinyin
 
+[![Go](https://github.com/longbridgeapp/go-pinyin/actions/workflows/go.yml/badge.svg)](https://github.com/longbridgeapp/go-pinyin/actions/workflows/go.yml)
+
 汉语拼音转换工具 Go 版。
 
 这是一个 [go-pinyin](https://github.com/mozillazg/go-pinyin) fork 版本，用来支持段落、短语、多一字准确转换的支持。
