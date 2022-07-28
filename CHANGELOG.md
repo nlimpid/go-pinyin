@@ -1,6 +1,7 @@
 # Changelog
 
-## [0.18.0] (2020-06-13)
+## [1.1.0] (2020-07-28)
+
 * **Changed** 使用 [pinyin-data][pinyin-data] v0.9.0 的拼音数据
 * **Bugfixed** 修复自定义的 Fallback 函数可能会导致结果乱码的问题 Fixes [#35]
 
@@ -28,7 +29,7 @@
 ## [0.13.0] (2018-04-29)
 
 - **Changed** 使用 [pinyin-data][pinyin-data] v0.5.1 的拼音数据 (via [#30])
-- **Changed** 修改命令行工具 `-s` 参数的值(thanks [@wdscxsj][@wdscxsj] via [#19][#19]):
+- **Changed** 修改命令行工具 `-s` 参数的值 (thanks [@wdscxsj][@wdscxsj] via [#19][#19]):
   - `Normal` 改为 `zhao`
   - `Tone` 改为 `zh4ao`
   - `Tone2` 改为 `zha4o`
@@ -39,7 +40,7 @@
   - `FinalsTone` 改为 `4ao`
   - `FinalsTone2` 改为 `a4o`
   - `FinalsTone3` 改为 `ao4`
-- **Changed** 严格限制命令行参数中 `-s` 选项的值(thanks [@wdscxsj][@wdscxsj] via [#20][#20]):
+- **Changed** 严格限制命令行参数中 `-s` 选项的值 (thanks [@wdscxsj][@wdscxsj] via [#20][#20]):
 
 ## [0.12.0] (2017-04-25)
 
@@ -55,7 +56,7 @@
 
 ## [0.11.0] (2016-10-28)
 
-- **Changed** 不再使用 `0` 表示轻声（因为之前并没有正确的实现这个功能, 同时也觉得这个功能没必要）。
+- **Changed** 不再使用 `0` 表示轻声（因为之前并没有正确的实现这个功能，同时也觉得这个功能没必要）。
   顺便修复了 Tone2 中 `ü` 标轻声的问题（像 `侵略 -> qi1n lv0e4` ）
 - **NEW** 新增 `Tone3` 和 `FinalsTone3` 拼音风格。
 
