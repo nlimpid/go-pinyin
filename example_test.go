@@ -14,6 +14,7 @@ func ExampleConvert() {
 
 func ExamplePinyin_default() {
 	hans := "中国人"
+	pinyin.InitJieba("./dict/jieba.dict.utf8")
 	a := pinyin.NewArgs()
 	fmt.Println("default:", pinyin.Pinyin(hans, a))
 	// Output: default: [[zhong] [guo] [ren]]

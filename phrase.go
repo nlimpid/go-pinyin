@@ -7,8 +7,12 @@ import (
 )
 
 var (
-	jieba = gojieba.NewJieba()
+	jieba = &gojieba.Jieba{}
 )
+
+func InitJieba(path ...string) {
+	jieba = gojieba.NewJieba(path...)
+}
 
 func cutWords(s string) []string {
 	return jieba.CutAll(s)
@@ -30,4 +34,3 @@ func pinyinPhrase(s string) string {
 
 	return s
 }
-
